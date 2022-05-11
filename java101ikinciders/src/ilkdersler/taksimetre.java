@@ -1,4 +1,4 @@
-package java101ikinciders.src;
+package java101ikinciders.src.ilkdersler;
 
 import  java.util.Scanner;
 
