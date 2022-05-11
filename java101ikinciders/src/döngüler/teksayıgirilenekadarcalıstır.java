@@ -13,7 +13,7 @@ public class teksayıgirilenekadarcalıstır {
         do {
             Scanner input = new Scanner(System.in);
             number = input.nextInt();
-            if (number % 4 == 0)
+            if (number % 4 == 0 && number%2==0)
                 total += number;
 
 
