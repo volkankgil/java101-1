@@ -1,4 +1,4 @@
-package java101ikinciders.src.döngüler;
+package java101ikinciders.src.ilkdersler;
 
 import java.util.Scanner;
 public class bmýcalculating {

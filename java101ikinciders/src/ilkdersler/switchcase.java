@@ -3,7 +3,7 @@ package java101ikinciders.src.ilkdersler;
 public class switchcase {
     public static void main(String[] args) {
 
-        int birincidonemnotu = 15, ikincidonemnotu = 30;
+        int birincidonemnotu = 15, ikincidonemnotu =300;
 
         switch (ikincidonemnotu / birincidonemnotu) {
 
