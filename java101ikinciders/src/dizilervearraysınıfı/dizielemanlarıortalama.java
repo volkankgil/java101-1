@@ -1,4 +1,4 @@
-package java101ikinciders.src.packageolusturma;
+package java101ikinciders.src.dizilervearraysınıfı;
 
 import java.util.Arrays;
 

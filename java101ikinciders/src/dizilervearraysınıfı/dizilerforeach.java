@@ -1,4 +1,4 @@
-package java101ikinciders.src.packageolusturma;
+package java101ikinciders.src.dizilervearraysýnýfý;
 
 public class dizilerforeach {
     public static void main(String[] args) {

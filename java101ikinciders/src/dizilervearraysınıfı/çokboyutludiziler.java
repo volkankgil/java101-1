@@ -1,4 +1,4 @@
-package diziler;
+package java101ikinciders.src.dizilervearraysýnýfý;
 
 public class çokboyutludiziler {
     public static void main(String[] args) {
