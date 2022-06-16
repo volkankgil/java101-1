@@ -23,6 +23,7 @@ public class dizideenkucukenbuyuksayı {
         System.out.println(min);
 
 
+
         int[] list2 = {15, 12, 788, 1, -1, -778, 2, 0};
         Arrays.sort(list2);
 

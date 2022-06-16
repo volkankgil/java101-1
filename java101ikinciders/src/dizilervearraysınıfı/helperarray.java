@@ -23,6 +23,7 @@ public class helperarray {
     static int find(int[] finder, int value) {
         for (int i = 0; i < finder.length; i++) {
             if (finder[i] == value) {
+                System.out.println(i);
                 return i;
             }
         }
@@ -44,9 +45,18 @@ public class helperarray {
     static boolean equals(int[] list1, int[] list2) {   //int yerine boolean ifadeyi verdik. çünkü sorgumuz true/false dönecektir.
 
         for (int i = 0; i < list1.length; i++) {
-            if (list1[i] != list2[i])
+            if (list1[i] != list2[i]) {
+                System.out.println("false");
                 return false;
+            }
         }
+        System.out.println("true");
         return true;
     }
+    static void copy(int [] arr,int value){
+        for(int i=0;i<value;i++){
+            System.out.println(arr[i]);
+        }
+    }
+
 }

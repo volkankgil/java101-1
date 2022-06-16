@@ -20,12 +20,9 @@ public class arraytersdeğerleri {
     }
 
     public static void main(String[] args) {
-        int [] list = {10, 20, 30, 40, 50, 60};
-        int[] newlist = reverse(list);
+        int [] list2 = {10, 20, 30, 40, 50, 60};
+        int[] newlist = reverse(list2);//yukarıdaki method reverse 'i çağırıyor
         printarray(newlist);
-
-
-
 
     }
 }

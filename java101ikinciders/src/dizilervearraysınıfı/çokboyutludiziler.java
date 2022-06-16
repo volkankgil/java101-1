@@ -1,5 +1,7 @@
 package java101ikinciders.src.dizilervearraysýnýfý;
 
+import java.util.Arrays;
+
 public class çokboyutludiziler {
     public static void main(String[] args) {
         int[] list =new int[5]; //5 sayýsý array 'in indis sayýsýný belirtiyor. yani 0 da olduðu için 6'dýr.
@@ -26,7 +28,6 @@ public class çokboyutludiziler {
 
         System.out.println(matrixiki[3][4]);
 
-
         int[][] matris4 =new int[6][8];
         System.out.println(matris4.length);
         System.out.println(matris4[0].length); // satýrý sýfýrdan baþlatýp saða doðru sütun sayýsýný veriyor.
@@ -37,13 +38,10 @@ public class çokboyutludiziler {
         for(int i=0;i<matrix5.length ;i++) {
             for (int j = 0; j < matrix5[i].length; j++) {
                 matrix5[i][j] = number++;
-                System.out.print(matrix5[i][j]+",");
+                System.out.print(matrix5[i][j]+" , ");
             }
             System.out.println();
         }
         System.out.println(matrix5[2][3]);
-
-
-
     }
 }

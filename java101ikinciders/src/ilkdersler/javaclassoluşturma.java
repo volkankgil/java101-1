@@ -1,4 +1,4 @@
-package packageolusturma;
+package java101ikinciders.src.ilkdersler;
 
 public class javaclassoluþturma {
     public static void main(String[] args) {
