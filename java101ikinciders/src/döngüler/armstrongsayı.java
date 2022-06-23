@@ -27,10 +27,10 @@ public class armstrongsayý {
 
         while (tempnumber != 0) {
             tempnumber /= 10;  //javada bir sayýyý 10'a böler isek son basamaðý atýyoruz.
-            counter++;
+
             System.out.println(tempnumber);
         }
-        System.out.println(counter);
+
         System.out.println("-----");
 
         tempnumber = a;

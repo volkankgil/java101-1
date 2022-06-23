@@ -1,45 +1,54 @@
 package java101ikinciders.src.Bitirmeödevi;
 
-import java.util.Scanner;
-
-import  java.util.Arrays;
-
 import java.util.Random;
+import java.util.Scanner;
 
 public class minesweeper {
 
-    int row,col;
-    String list[][] = new String[row][col];
+    int rownumber, colnumber;
 
-     void minesweeper(int row,int col) {
-         String list[][] = new String[row][col];
-         for (int i = 0; i<list.length; i++) {
-             for (int j = 0; j<list[0].length; j++) {
-                 System.out.print("-" + " ");
-             }
-             System.out.println("");
-         }
-     }
+    int mayýnlar;
+    int bomb = 0;
+    String map[][] = new String[rownumber][colnumber];
+    String bombboard[][] = new String[rownumber][colnumber];
 
-    void bomba (int row,int col) {
+    Random rand = new Random();
+    Scanner input = new Scanner(System.in);
+
+    public void minesweeper(int rownumber, int colnumber) {
+
+        String map[][] = new String[rownumber][colnumber];
+        for (int i = 0; i < map.length; i++) {
+            for (int j = 0; j < map[0].length; j++) {
+                System.out.print("-" + " ");
+            }
+            System.out.println(" ");
+        }
+    }
 
 
+    public void prepareGame(int rownumber, int colnumber) {
 
-        double mayýnlar=1;
-        mayýnlar=list.length*list[0].length;
-        System.out.println(Math.round(mayýnlar/4));
+        String bombboard[][] = new String[rownumber][colnumber];
 
-        for (int i = 0; i<mayýnlar; i++) {
-            while (true) {
-                int d = (int)Math.random() * list.length;
-                int e = (int) Math.random() * list[0].length;
-                if (list[e][d] != "*") {
-                    list[e][d] = "*";
-                }
+        mayýnlar = (int)((rownumber * colnumber) / 4);
+
+        while (mayýnlar != bomb) {
+            int randomrow = (int) rand.nextInt(rownumber);
+            int randomcol = (int) rand.nextInt(colnumber);
+            if (bombboard[randomrow][randomcol] != "*") {
+                bombboard[randomrow][randomcol] = "*";
+                bomb++;
             }
         }
 
-        double c=Math.random()*10*list.length;
-        System.out.println(Math.round(c));
+        for (int i = 0; i < bombboard.length; i++) {
+            for (int j = 0; j < bombboard[0].length; j++) {
+                System.out.print(bombboard[i][j] + " ");
+            }
+            System.out.println(" ");
+
+        }
     }
 }
+
