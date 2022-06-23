@@ -44,10 +44,12 @@ public class minesweeper {
 
         for (int i = 0; i < bombboard.length; i++) {
             for (int j = 0; j < bombboard[0].length; j++) {
-                System.out.print(bombboard[i][j] + " ");
+                if (bombboard[i][j] != "*") { // ile yýldýz olmayan yerlere - bastýk
+                bombboard[i][j] = "-";
             }
-            System.out.println(" ");
-
+            System.out.print(bombboard[i][j] + " ");
+        }
+        System.out.println();
         }
     }
 }
