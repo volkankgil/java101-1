@@ -2,7 +2,7 @@ package java101ikinciders.src.basicLessons.exercises;
 
 import java.util.Scanner;
 
-public class kdvtutarý {
+public class kdvAmount {
     public static void main(String[] args) {
 
         double kdvsiz, kdvli, kdvlifiyat;

@@ -2,14 +2,13 @@ package java101ikinciders.src.basicLessons.exercises;
 
 import java.util.Scanner;
 
-public class sýnýfgecmedurumu {
+public class classPassOrFail {
     public static void main(String[] args) {
 
         int Matematik, Fizik, Türkçe, Kimya, Müzik;
         int toplam = 0;
         int sayac = 0;
         int ortalama;
-
 
         Scanner input = new Scanner(System.in);
 
@@ -48,6 +47,15 @@ public class sýnýfgecmedurumu {
             sayac++;
         }
 
+        /*int sum=0;   // diziler ile sonuc bulma
+
+        int result[]={Matematik,Fizik,Türkçe,Kimya,Müzik};
+
+        for (int i=0;i<result.length;i++) {
+            sum+=result[i];
+        }
+        System.out.println("Ortalama: " +sum/result.length);*/
+
         if (sayac == 0) {
             System.out.println("HATALI ÝÞLEM");
         } else {
@@ -55,14 +63,17 @@ public class sýnýfgecmedurumu {
 
             System.out.println("ortalama Notu: "+ ortalama);
 
+            /*boolean sonuc=ortalama>55 ;
+
+            String resulttt=sonuc ?"geçti":"kadlý";
+            System.out.println(resulttt);*/   //boolean ile yazdýrma hali.
+
             if (ortalama < 55) {
                 System.out.println("kaldý");
             }else{
                 System.out.println("geçti");
 
             }
-
-
         }
     }
 }

@@ -2,7 +2,7 @@ package java101ikinciders.src.basicLessons.exercises;
 
 import java.util.Scanner;
 
-public class sayýlarýsýralama {
+public class allign_numbers {
     public static void main(String[] args) {
 
         double a, b, c;

@@ -2,26 +2,26 @@ package java101ikinciders.src.basicLessons.exercises;
 
 import  java.util.Scanner;
 
-public class taksimetre {
+public class taximetre {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
         double perkm=2.20;
         double tutar;
         double startingprice=10;
-        double km,a,b;
+        double km, totalprice, taxiFee;
 
 
 
-        System.out.print("gidilen km: ");
+        System.out.print("Gidilen km: ");
         km=input.nextDouble();
         tutar=km*perkm;
-        a=tutar+startingprice;
+        totalprice =(int)(tutar)+startingprice;
 
-        boolean kosul1 = a<20;
-        b = kosul1 ? 20 :a;
+        boolean kosul1 = totalprice <20;
+        taxiFee = kosul1 ? 20 : totalprice;
 
-        System.out.print("Toplam tutar: "+b);
+        System.out.print("Total Amount: "+ taxiFee);
 
 
 

@@ -2,7 +2,7 @@ package java101ikinciders.src.basicLessons.exercises;
 
 import java.util.Scanner;
 
-public class kullanýcýgiriþi {
+public class userLogin {
     public static void main(String[] args) {
 
         String kullanýcýadý, þifre, yeniþifre;
@@ -19,22 +19,21 @@ public class kullanýcýgiriþi {
         if (kullanýcýadý.equals("Volkan") && þifre.equals("Marin1234")) {
             System.out.println("Giriþ Yaptýnýz");
         } else {
-            System.out.println("yanlýþ giriþ yaptýnýz");
+            System.out.println("Yanlýþ Giriþ Yaptýnýz");
             System.out.print("ÞÝFRENÝZÝ SIFIRLAMAK ÝSTERMÝSÝNÝZ?");
             a = input.nextLine();
             if (a.equals("evet")) {
                 System.out.print("YENÝ ÞÝFRE TANIMLAYINIZ : ");
-                yeniþifre = input.nextLine();
 
+                yeniþifre = input.nextLine();
                 if (yeniþifre.equals("Marin1234")) {
                     System.out.println("Yeni girdiðiniz þifre eskisi ile ayný olamaz");
                 } else {
                     System.out.println("þifre oluþturuldu");
                 }
             } else {
-                System.out.println("sistemden çýkýldý");
+                System.out.println("Sistemden Çýkýldý");
             }
-
         }
     }
 }

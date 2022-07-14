@@ -2,7 +2,7 @@ package java101ikinciders.src.basicLessons.exercises;
 
 import  java.util.Scanner;
 
-public class notortalamasý {
+public class averageOfNote {
     public static void main(String[] args) {
 
         double matematik, türkçe, fizik,kimya,müzik,tarih ;

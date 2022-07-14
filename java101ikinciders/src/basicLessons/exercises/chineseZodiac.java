@@ -2,7 +2,7 @@ package java101ikinciders.src.basicLessons.exercises;
 
 import java.util.Scanner;
 
-public class çinzodyak {
+public class chineseZodiac {
     public static void main(String[] args) {
 
         int doðumtarihi;
@@ -81,20 +81,18 @@ public class çinzodyak {
             System.out.println("fare");
         } else if (kalan == 5) {
             System.out.println("öküz");
-        }else if (kalan == 6) {
+        } else if (kalan == 6) {
             System.out.println("kaplan");
-        }else if (kalan == 7) {
+        } else if (kalan == 7) {
             System.out.println("tavþan");
-        }else if (kalan == 8) {
+        } else if (kalan == 8) {
             System.out.println("ejderha");
-        }else if (kalan == 9) {
+        } else if (kalan == 9) {
             System.out.println("yýlan");
-        }else if (kalan == 10) {
+        } else if (kalan == 10) {
             System.out.println("at");
-        }else if (kalan ==11) {
+        } else if (kalan == 11) {
             System.out.println("koyun");
-
-
-                                }
-                            }
-                        }
+        }
+    }
+}
