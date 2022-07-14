@@ -13,6 +13,6 @@ public class javaclassoluþturma {
          */
 
 
-        System.out.print("fff\rBen\t\t MARÝNÝ\b \"ÇOK\" \n\\SEVÝYORUM\\");
+        System.out.print("fff\rBen\t MARÝNÝ\b \"ÇOK\" \n\\SEVÝYORUM\\");
     }
 }
