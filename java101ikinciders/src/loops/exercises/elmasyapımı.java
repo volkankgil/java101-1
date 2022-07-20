@@ -21,6 +21,7 @@ public class elmasyapýmý {
                 }
                 System.out.println();
             }
+
         for(int l=n;l>0;l--) {
             for (int m = 1; m <= (n-l); m++) {
                 System.out.print(" ");

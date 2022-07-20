@@ -1,4 +1,4 @@
-package java101ikinciders.src.arraysAndArraysClass;
+package java101ikinciders.src.Arrays.ArrayClass;
 
 import java.util.Arrays;
 

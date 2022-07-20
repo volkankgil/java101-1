@@ -2,7 +2,7 @@ package java101ikinciders.src.loops.exercises;
 
 import java.util.Scanner;
 
-public class armstrongsayý {
+public class armstrongNumber {
     public static void main(String[] args) {
 
         //Basamak Sayýsý Bulma Ýþlemi
@@ -27,9 +27,11 @@ public class armstrongsayý {
 
         while (tempnumber != 0) {
             tempnumber /= 10;  //javada bir sayýyý 10'a böler isek son basamaðý atýyoruz.
-
+            counter++;
             System.out.println(tempnumber);
+
         }
+        System.out.println("Basamak Sayýsý:" +counter);
 
         System.out.println("-----");
 
@@ -37,7 +39,7 @@ public class armstrongsayý {
 
         while (tempnumber != 0) {
             basvalue = tempnumber % 10;
-            baspow = 1;
+            baspow = 1;      // baspow sayýsý tekrar 1'e eþitliyoruz ki for döngüsü çýkýþýndaki rakamý almasýn.
             for (int i = 1; i <= counter; i++) {
 
                 baspow *= basvalue;

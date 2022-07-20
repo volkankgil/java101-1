@@ -35,7 +35,8 @@ public class ikininkuvveti {
         n = input.nextInt();
 
         for (i = 1; i < n; i *= 4) {
-            System.out.println(i + "   ");}
+            System.out.println(i + "   ");
+        }
 
         System.out.println();
 

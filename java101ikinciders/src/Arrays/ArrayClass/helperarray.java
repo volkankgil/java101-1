@@ -1,4 +1,4 @@
-package java101ikinciders.src.arraysAndArraysClass;
+package java101ikinciders.src.Arrays.ArrayClass;
 
 public class helperarray {
     static void print(int[] arr) {

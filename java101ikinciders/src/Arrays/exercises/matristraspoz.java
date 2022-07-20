@@ -1,4 +1,4 @@
-package java101ikinciders.src.arraysAndArraysClass.exercises;
+package java101ikinciders.src.Arrays.exercises;
 
 public class matristraspoz {
 

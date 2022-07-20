@@ -35,7 +35,7 @@ public class forvewhile {
 
         int a,b;
 
-        System.out.print("sayý giriniz : ");
+        System.out.print("Enter Number : ");
         b=input.nextInt();
 
         for (a=b-1 ; a < 20; a += 4) {

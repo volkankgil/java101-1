@@ -20,7 +20,7 @@ public class continuevebreakkomutu {
             }
                 System.out.println(i);
             }
-/*
+
         int k = 1;
         while (k < 16) {
             k+=3;
@@ -28,8 +28,7 @@ public class continuevebreakkomutu {
                 continue;
             }
             System.out.println(k);
-
-        }*/
+        }
 
     }
 }

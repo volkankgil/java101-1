@@ -1,4 +1,4 @@
-package java101ikinciders.src.arraysAndArraysClass.lecture;
+package java101ikinciders.src.Arrays.lecture;
 
 public class çokboyutludiziler {
     public static void main(String[] args) {
