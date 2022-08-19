@@ -1,5 +1,7 @@
 package java101ikinciders.src.Arrays.exercises;
 
+import java.util.Arrays;
+
 public class tekraredensayýlarýbulma {
 
     static boolean isfind(int[] arr, int value) {
@@ -20,7 +22,7 @@ public class tekraredensayýlarýbulma {
 
         for (int i = 0; i < list.length; i++) {
             for (int a = 0; a < list.length; a++) {
-                if ((i != a) && (list[i] == list[a])) {
+                if ((i != a) && (list[i] == list[a])) {  // 0. ve 3. eleman birbirine eþit.
                     if (list[a] % 2 == 0) {
                         if (!isfind(duplicate, list[a])) {
                             duplicate[startIndex++] = list[i];

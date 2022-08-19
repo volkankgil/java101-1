@@ -29,7 +29,6 @@ public class armstrongNumber {
             tempnumber /= 10;  //javada bir sayıyı 10'a böler isek son basamağı atıyoruz.
             counter++;
             System.out.println(tempnumber);
-
         }
         System.out.println("Basamak Sayısı:" +counter);
 

@@ -2,20 +2,20 @@ package java101ikinciders.src.Arrays.exercises;
 
 public class arraytersdeğerleri {
 
-    static int[] reverse(int[] list) {
-        int[] reverse = new int[list.length];
+    static int[] reverse(int[] arr) {
+        int[] reverse = new int[arr.length];
 
-        for (int i = 0, j = list.length - 1; i < list.length; i++, j--) {
-            reverse[i] = list[j];
+        for (int i = 0, j = arr.length - 1; i < arr.length; i++, j--) {
+            reverse[i] = arr[j];
         }
 
         return reverse;
     }
 
-    static void printarray(int[] list) {
+    static void printarray(int[] arr) {
 
-        for (int i = 0; i < list.length; i++) {
-            System.out.println(list[i]);
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
         }
     }
 

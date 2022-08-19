@@ -1,5 +1,7 @@
 package java101ikinciders.src.Arrays.lecture;
 
+import java.util.Arrays;
+
 public class diziilkders {
 
     static void printarray(int[]arr){
@@ -60,5 +62,6 @@ public class diziilkders {
 
         String[]weekdays=new String[]{"Pazartesi","Salý","Çarþamba"};
         System.out.println(weekdays[2]);
+
     }
 }

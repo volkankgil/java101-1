@@ -15,14 +15,14 @@ public class MineSweeper {
         mayinlar = new String[rowNumber][colNumber];
         girilen = new String[rowNumber][colNumber];
 
-        mayinDoldur(mayinlar, rowNumber, colNumber, mayinSayisi);
+        mayinDoldur();
         print(mayinlar);
 
-        game(mayinlar, girilen, rowNumber, colNumber, mayinSayisi);
+        game();
         print(girilen);
     }
 
-    public String[][] mayinDoldur(String[][] mayinlar, int rowNumber, int colNumber, int mayinSayisi) {
+    public String[][] mayinDoldur() {
         int randomX, randomY;
         Random random = new Random();
         for (int i = 0; i < rowNumber; i++) {
@@ -43,7 +43,7 @@ public class MineSweeper {
         return mayinlar;
     }
 
-    public String[][] boslukDoldur(String[][] girilen, int rowNumber, int colNumber) {
+    public String[][] boslukDoldur() {
         for (int i = 0; i < rowNumber; i++) {
             for (int j = 0; j < colNumber; j++) {
                 girilen[i][j] = "-";
@@ -62,8 +62,8 @@ public class MineSweeper {
         System.out.println("============================================");
     }
 
-    public void game(String[][] mayinlar, String[][] girilen, int rowNumber, int colNumber, int mayinSayisi) {
-        girilen = boslukDoldur(girilen, rowNumber, colNumber);
+    public void game() {
+        girilen = boslukDoldur();
 
         int satir, sutun;
         int mayinliIsaret = 0;

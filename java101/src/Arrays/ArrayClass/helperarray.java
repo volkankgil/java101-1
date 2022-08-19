@@ -23,27 +23,23 @@ public class helperarray {
     static int find(int[] finder, int value) {
         for (int i = 0; i < finder.length; i++) {
             if (finder[i] == value) {
-                System.out.println(i);
                 return i;
             }
         }
         return -1;
     }
 
-  /*  static int copy(int[] listeler, int value) {
-        int sayı;
-        if (value == sayı) {
+    static int binarysearch(int[] listeler, int value) {
+
             for (int i = 0; i < listeler.length; i++) {
-                return listeler[i];
-                System.out.println(listeler[i]);
+                if(listeler[i]==value){
+                    return i;
             }
-        } else {
-            return -1;
+        }return -1;
         }
-    }*/  //çözemedim bakılacak. binary seracrh ü metodla yazma.
 
     static boolean equals(int[] list1, int[] list2) {   //int yerine boolean ifadeyi verdik. çünkü sorgumuz true/false dönecektir.
-
+                                                        // 2 listenin birbirine eşit olup olmadığına baktık.
         for (int i = 0; i < list1.length; i++) {
             if (list1[i] != list2[i]) {
                 System.out.println("false");
@@ -53,9 +49,9 @@ public class helperarray {
         System.out.println("true");
         return true;
     }
-    static void copy(int [] arr,int value){
+    static void copy(int [] arr,int value){   // girdiğimiz value'ya göre listenin başından değer kopayalıyoruz.
         for(int i=0;i<value;i++){
-            System.out.println(arr[i]);
+            System.out.print(arr[i]+" ");
         }
     }
 

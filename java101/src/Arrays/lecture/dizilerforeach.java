@@ -37,6 +37,8 @@ public class dizilerforeach {
             System.out.println("");
         }
 
+        System.out.println("---------------");
+
         for (int []  satýr : matris) {
             for (int kolon : satýr) {
                 System.out.print(kolon + " ");

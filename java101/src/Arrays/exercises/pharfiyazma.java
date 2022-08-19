@@ -23,7 +23,7 @@ public class pharfiyazma    {
             }
         }
 
-        for(String []row:letter){
+            for(String []row:letter){
             for(String col:row){
                 System.out.print(col);
             }

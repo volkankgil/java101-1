@@ -10,10 +10,12 @@ public class dizielemanlarýortalama {
         System.out.println(Arrays.toString(list));
 
         double sum =0;
+
         for(int i=0;i<list.length;i++){
             System.out.println(list[i]);
             sum+=list[i];
         }
+
         System.out.println("Dizi sayýlarý ortalama :" + (sum/ list.length));
 
         double sumiki =0;
@@ -21,10 +23,6 @@ public class dizielemanlarýortalama {
         for(int i=0;i<list.length;i++){
             sumiki+=1/ list[i];
         }
-        System.out.println("Harmonik Ortalama :"+list.length/sumiki);
-
-
-
-
+        System.out.println("Harmonik Ortalama :" +list.length/sumiki);
     }
 }
