@@ -28,5 +28,7 @@ public class girilensayýminmaxbulma {
         }
         System.out.println("En küçük Sayý : " + max);
         System.out.println("En büyük Sayý : " + min);
+
+        System.exit(0);
     }
 }
