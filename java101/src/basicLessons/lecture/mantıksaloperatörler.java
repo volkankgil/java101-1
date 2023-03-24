@@ -20,8 +20,5 @@ public class mantýksaloperatörler {
         t = (a!=d) ? 14 : 4; // (a>=c) ifadesini a+c , b/d veya b+a+c yazamayýz karþýlaþtýrma operatörü ile yazmalýyýz
         System.out.println(t);
 
-
-
-
     }
 }

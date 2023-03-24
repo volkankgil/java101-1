@@ -31,7 +31,7 @@ public class basicoperatörs {
         c%=e; // c = c/e bölümünden kalan sayı
         System.out.println(c);
 
-        int sayıbir= 15, sayıiki=20, sayıüç=25;
+        int sayıbir= 25, sayıiki=20, sayıüç=25;
 
         boolean kosul1=sayıbir<=20;
         System.out.println(kosul1);

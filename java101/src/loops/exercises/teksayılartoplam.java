@@ -9,7 +9,7 @@ public class teksayýlartoplam {
 
         int a;
 
-        int total=1;
+        int total=0;
 
         do {
             System.out.print("deðer giriniz");
@@ -18,7 +18,7 @@ public class teksayýlartoplam {
                 total += a;
 
 
-        }while (a>0);
+        }while (a%2==1);
         System.out.println(total);
         }
 

@@ -3,16 +3,16 @@ package java101ikinciders.src.basicLessons.lecture;
 public class ifveelsebloklarý {
     public static void main(String[] args) {
 
-            int a = 10, b = 14, c = 19, d = 46;
+            int a = 10, b = 19, c = 19, d = 46;
 
             if (a == b) {
-                System.out.print("a eþit deðil b'ye");
+                System.out.println("a eþittir b'ye");
             }if(c>d){
-
+            System.out.println("ef");
             } else if (a >= c || d < c) {
-                System.out.print("koþul yanlýþ");
+                System.out.println("koþul yanlýþ");
             } else if (b != c) {
-                System.out.print("bu ifadeyi atla");
+                System.out.println("bu ifadeyi atla");
             } else {
                 System.out.println("BU ÝFADE DOÐRUDUR");
 

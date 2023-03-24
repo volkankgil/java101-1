@@ -8,7 +8,7 @@ public class arraymethodlarý {
         int[] list2={6,1,55,28,85};
         int[] list3={6,1,55,28,85};
 
-        System.out.println(helperarray.find(liste,33));//helperarray sýnýfýnda yazdýðýmýz method ile sayýnýn indis deðerini bulduk.
+        System.out.println(java101ikinciders.src.Arrays.ArrayClass.helperarray.find(liste,33));//helperarray sýnýfýnda yazdýðýmýz method ile sayýnýn indis deðerini bulduk.
 
         System.out.println("");
 
@@ -37,7 +37,7 @@ public class arraymethodlarý {
 
         System.out.println("----------");
 
-        System.out.println(helperarray.equals(list2,list3));
+        System.out.println(java101ikinciders.src.Arrays.ArrayClass.helperarray.equals(list2,list3));
 
         System.out.println("");
 

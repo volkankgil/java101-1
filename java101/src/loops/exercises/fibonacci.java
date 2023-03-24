@@ -21,5 +21,20 @@ public class fibonacci {
                 a=b;
                 b=result;
             }
+
+        System.out.println();
+
+        String first = "First sentence";
+        String second = "Second sentence";
+        String third = "Third sentence";
+        String fourth = "Fourth sentence";
+        String fifth = "Fifth sentence";
+
+        StringBuilder sb = new StringBuilder();  //String Builder sýnýfý ile kelime birlieþtirme
+
+        sb.append(first).append(" ").append(second).append(third).append(fourth).append(fifth);
+
+        System.out.println(sb.toString());
+
         }
 }

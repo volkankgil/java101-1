@@ -1,5 +1,7 @@
 package java101ikinciders.src.Arrays.ArrayClass;
 
+import  java101ikinciders.src.Arrays.ArrayClass.helperarray;
+
 import java.util.Arrays;
 
 public class helparraymain {
@@ -10,10 +12,10 @@ public class helparraymain {
         double [] list3={10.5,20.147,30.87,40.14};
         int [] list4={1,2,3};
 
-        helperarray.copy(list,5);
+        java101ikinciders.src.Arrays.ArrayClass.helperarray.copy(list,5);
         System.out.println("");
 
-        helperarray helperadındanesneürettik = new helperarray();
+        helperarray helperadındanesneürettik = new java101ikinciders.src.Arrays.ArrayClass.helperarray();
         helperadındanesneürettik.print(list);
         System.out.println("");
 

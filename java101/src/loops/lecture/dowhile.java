@@ -18,6 +18,7 @@ public class dowhile {
                 askpaswoord = false;
             } else {
                 System.out.println("yanlýþ");
+                askpaswoord=true;
             }
         } while (askpaswoord);
     }

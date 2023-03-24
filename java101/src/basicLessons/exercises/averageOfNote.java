@@ -31,12 +31,12 @@ public class averageOfNote {
 
 
 
-        double toplam = (matematik+türkçe+fizik+kimya+müzik+tarih)/6;
-        System.out.println("toplam ortalamanýz :" +toplam);
+        double ortalamanýz = (matematik+türkçe+fizik+kimya+müzik+tarih)/6;
+        System.out.println("ortalamanýz ortalamanýz :" + ortalamanýz);
 
 
 
-        boolean kosul = toplam>60;
+        boolean kosul = ortalamanýz >60;
         String str = kosul ? "geçti" : "kaldý";
         System.out.println(str);
 

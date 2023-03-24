@@ -12,7 +12,7 @@ public class karþýlaþtýrmaoperatörleri {
         //karþýlaþtýrma operatörleri
 
         System.out.println(c==d);
-        System.out.println(a=c) ;
+        System.out.println(a=b) ;
         System.out.println("");
 
         System.out.println(c!=a);
